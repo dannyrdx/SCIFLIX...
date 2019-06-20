@@ -1,0 +1,122 @@
+body{
+    overflow-x: hidden;
+    background-color: black;
+}
+
+.poster img{
+    height: 300px;
+    width: 200px;
+    left: 5%;
+    position:absolute;
+}
+
+.title p{
+    color: white;
+    position: absolute;
+    left: 22%;
+    font-size: 25px;
+    text-decoration: blink;
+    
+}
+.trailer a p{
+  color: white;
+  font-size: 15px;
+  padding: 8px 12px;
+  width: 123px;
+  left:22%;
+  position: absolute;
+  color:white;
+  background-color: transparent;
+  box-sizing: border-box;
+  border: 5px solid transparent;
+  overflow: hidden;
+  border-color: white;
+  border-radius: 15px 15px;
+  text-align: center;
+  border-image: -webkit-linear-gradient(right,white,red);
+  border-image-slice: 1;
+}
+
+.movie a p{
+  color: white;
+  font-size: 15px;
+  padding: 8px 12px;
+  width: 150px;
+  left:32%;
+  position: absolute;
+  color:white;
+  background-color: transparent;
+  box-sizing: border-box;
+  border: 5px solid transparent;
+  overflow: hidden;
+  border-color: white;
+  border-radius: 15px 15px;
+  text-align: center;
+  border-image: -webkit-linear-gradient(right,white,red);
+  border-image-slice: 1;
+  
+}
+
+.ratings{
+    color: white;
+    position: absolute;
+    left: 22%;
+    font-size: 14px;
+}
+
+.runtime{
+    color: white;
+    position: absolute;
+    left: 22%;
+    font-size: 14px;
+}
+
+.cast{
+    color: white;
+    position: absolute;
+    left: 22%;
+    font-size: 14px;
+    right: 10px;
+}
+
+.year{
+    color: white;
+    position: absolute;
+    left: 35%;
+    font-size: 14px;
+}
+
+.description{
+    color: white;
+    position: absolute;
+    left: 22px;
+    font-size: 14px;
+    right: 10px;
+}
+
+.director{
+    color: white;
+    position: absolute;
+    left: 22%;
+    font-size: 14px;
+    right: 10px;
+    width: 320px;
+}
+
+.genres{
+    color: white;
+    position: absolute;
+    left: 22%;
+    font-size: 14px;
+}
+
+#v{
+    left:46%;
+    position: absolute;
+}
+
+.del input[type="text"]{
+    position: absolute;
+    left: 60%;
+    top: 100%;
+}

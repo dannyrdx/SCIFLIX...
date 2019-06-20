@@ -1,0 +1,246 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: 'sans-serif','verdana';
+    background-color: black;
+    background-size: 20px 20px;
+}
+
+#navbar {
+    margin-top:0%;
+    position: absolute;
+    margin-left: 0%;
+    height: 75px;
+    width: 100%;
+    transition: 0.3s;
+    background: rgba(0,0,0,0.7);
+}
+
+#navbar .logo a p{
+    margin: 0;
+    padding: 0 0 30px;
+    text-align: center;
+    font-size: 22px;
+    color:white;
+    background: rgb(255, 21, 21);
+    font-size: xx-large;
+    font-family: 'impact';
+    width: 100px;
+    height: 38px;
+    top: 50%;
+    left: 4.3%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+}
+/* Style the navbar links */
+
+#navbar a {
+  font-size: 15px;
+    float: left;
+    top: 20%;
+    text-decoration: none;
+    padding: 29px 60px;
+    color: white;
+    font-family: 'calibri';
+}
+
+#navbar a:hover{
+    background: red;
+}
+
+#navbar .search-box
+{
+    float: right;
+    
+}
+
+#navbar input[type="text"]{
+    padding: 8px;
+    margin-top: 24px;
+    border: none;
+    font-size: 15px;
+     border-radius: 15px 0px 15px 0px;
+     margin-right: 16px;
+}
+
+#navbar input[type="submit"]{
+    padding: 8px;
+    float: right;
+    margin-top: 24px;
+    margin-right:25px;
+    border: none;
+    font-size: 15px;
+    border-radius: 0 15px 15px 0;
+    background-color: red;
+    color:white;
+}
+
+#navbar input[type="submit"]:hover{
+    background-color: white;
+    color:red;
+}
+
+
+#navbar .logo a:hover{
+    background: none;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 1300px;
+  height: 562px;
+  overflow: hidden;
+  margin: auto;
+  top:11%;
+  
+}
+
+.trending{
+    top:78%;
+    position: absolute;
+    height: 88px;
+    width: 98%;
+    transition: 0.3s;
+    background: rgba(0,0,0,0.7);
+    overflow-y: hidden;
+}
+
+.trending p{
+    color:white;
+    margin-left:10px;
+    margin-top:1%;
+    font-size: 22px;
+}
+/* Caption text */
+.text a p{
+  color: #f2f2f2;
+  font-size: 22px;
+  padding: 8px 12px;
+  bottom: 65px;
+  width: 150px;
+  left:44.5%;
+  top:77%;
+  position: absolute;
+  color:white;
+  background: rgb(255, 21, 21);
+  overflow: hidden;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    top:95%;
+  height: 15px;
+  position: relative;
+  width: 15px;
+  margin: 0 2px;
+  background-color: white;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color:rgb(255, 21, 21);
+  overflow: hidden;
+}
+
+.swiper-container {
+      width: 100%;
+      height: 410px;
+    }
+    .swiper-slide img{
+      font-size: 18px;
+      left:10%;
+      color:white;
+      opacity:0.8;
+      background: #fff;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      height:350px;
+      width:210px;
+      margin-left:18%;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    
+    .swiper-slide img:hover{
+      opacity:1.1;
+      height:355px;
+      width:215px;
+    }
+    
+    .swiper-slide a{
+        color:white;
+    }
+   
+    
+.footerlogo img{
+    height:6%;
+    width:8%;
+    left:47%;
+    position: absolute;
+    top: 180%;
+}
+
+.footer p{
+    margin-left:42%;
+    color:white;
+    position: absolute;
+    top: 170%;
+}
+
+.swiper-slide a p{
+    left: 125px;
+    text-align: center;
+    font-size: 12px;
+    color:white;
+    position:absolute;
+}
+
+.popular{
+    color:white;
+    left:50px;
+    font-size: 20px;
+    position: absolute;
+}
+
+.latest-scifi img{
+    
+    left: 30px;
+    height: 300px;
+    width: 580px;
+    position: absolute;
+}
+.latest-scifi a p{
+    top: 157%;
+    left: 30px;
+    color: white;
+    position: absolute;
+}
+
+.latest-animated img{
+    top: 111%;
+    left: 730px;
+    height: 300px;
+    width: 580px;
+    position: absolute;
+}
+.latest-animated a p{
+    top: 157%;
+    color: white;
+    left: 730px;
+    position: absolute;
+}

@@ -1,0 +1,47 @@
+.heading p{
+    margin: 0;
+    left:40%;
+    font-size: 60px;
+    color:white;
+    font-family: 'impact';
+    top: 23%;
+    align-content: center;
+    position: absolute;
+    text-justify:auto;
+}
+
+.upload a p{
+    left:39%;
+    position: absolute;
+    color: white;
+    background: red;
+    font-family: 'impact';
+    font-size: 22px;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    top:55%;
+}
+
+.modify a p{
+    left:49%;
+    position: absolute;
+    color: white;
+    background: red;
+    font-family: 'impact';
+    font-size: 22px;
+    padding: 5px;
+    top:55%;
+    width: 160px;
+    text-align: center;
+}
+
+.upload a p:hover{
+    color: red;
+    background: white;
+}
+
+.modify a p:hover{
+    color: red;
+    background: white;
+}

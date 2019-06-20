@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" href="sciflix.ico"/>
+<title>Registration</title>
+    <link rel="stylesheet" type="text/css" href="css/Register.css">
+    <script src="register.js"></script></head>
+<body>
+ <div class="logo"><a href="Sciflix.html">Sciflix</a></div>
+  <div class="registrationbox">
+   <h2>Create Account</h2>
+    <form action="Register.jsp" method="post">  
+    <h3>Username</h3>
+    <input type="text" name="username" placeholder="Enter Username" required="required">
+    <h3>Email</h3>
+    <input type="email" name="email" placeholder="Enter Email" required="required">
+    <h3>Password</h3>
+    <input type="password" id="password" name="password" placeholder="Enter Password" required="required" onkeyup='check();' size="8">
+   <h3> Confirm password</h3>
+    <input type="password" id="confirm_password" name="confirm_password" placeholder="Re-enter Password" required="required" onkeyup='check();' size="8">
+    <span id='message'></span><br><br>
+    <input type="submit" name="register" value="Register" id="submit" disabled>     
+   </form>     
+  </div>
+ </body>
+</html>
